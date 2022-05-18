@@ -1,0 +1,21 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /
+
+spring:
+  datasource:
+    url: jdbc:postgresql://rm-2zefzzv3s8d74dyfvho.pg.rds.aliyuncs.com:3432/arnaya_web_dev
+    username: aranya_staging
+    password: e23TsmZasGyEAqd2018
+    driver-class-name: org.postgresql.Driver
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    auto-mapping-behavior: full
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:com/**/*Mapper.xml
+  global-config:
+    db-config:
+      logic-delete-field: deleted_at
