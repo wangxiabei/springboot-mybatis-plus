@@ -29,6 +29,6 @@ public class LoginController {
         queryWrapper.select("id","phone").like("phone",userDto.getPhone());
         Users user = usersService.getOne(queryWrapper);
         System.out.println("user"+user);
-        return "";
+        return "成功啦啊哈哈哈哈嗯嗯嗯哒哒哒";
     }
 }
