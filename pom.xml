@@ -10,6 +10,7 @@
     <modules>
         <module>item-mbg</module>
         <module>item-demo</module>
+        <module>item-mall</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
