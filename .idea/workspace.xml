@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4919e984-58fe-4510-b7f7-1e589efd98ef" name="Default Changelist" comment="" />
+    <list default="true" id="4919e984-58fe-4510-b7f7-1e589efd98ef" name="Default Changelist" comment="新增加mall模块">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-demo/src/main/java/com/spring/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/src/main/java/com/spring/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-demo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-demo/target/classes/com/spring/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/target/classes/com/spring/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-mall/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/item-mall/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -33,6 +46,7 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectId" id="23dTLCtN9BZFsNNJcXLbP2uC6y1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -42,6 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/item-security/src/main/java/com/spring/model" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/item-security/src/main/resources" />
     <property name="project.structure.last.edited" value="Project" />
@@ -55,6 +70,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.DemoApplication">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.Application" />
+      <module name="item-mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.DemoApplication" />
       <module name="item-demo" />
@@ -110,6 +138,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DemoApplication" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.GeneratorCodeConfig" />
         <item itemvalue="Application.SecurityApplication" />
       </list>
@@ -126,64 +155,87 @@
       <option name="presentableId" value="Default" />
       <updated>1642062905604</updated>
     </task>
+    <task id="LOCAL-00001" summary="xiugai">
+      <created>1652853879020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652853879020</updated>
+    </task>
+    <task id="LOCAL-00002" summary="写了一些备注吧">
+      <created>1652926096429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652926096429</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增加mall模块">
+      <created>1655259491280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655259491280</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增加mall模块">
+      <created>1655273294212</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655273294212</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改">
+      <created>1655278905934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655278905934</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="xiugai" />
+    <MESSAGE value="写了一些备注吧" />
+    <MESSAGE value="新增加mall模块" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="821" y="300" key="#com.intellij.ide.util.MemberChooser" timestamp="1651200563734">
-      <screen x="57" y="25" width="1991" height="1255" />
+    <state x="317" y="25" width="1873" height="1407" key="CommitChangelistDialog2" timestamp="1655278905834">
+      <screen x="57" y="25" width="2503" height="1415" />
     </state>
-    <state x="821" y="300" key="#com.intellij.ide.util.MemberChooser/57.25.1991.1255@57.25.1991.1255" timestamp="1651200563734" />
-    <state x="728" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1644823050063">
-      <screen x="57" y="25" width="1991" height="1255" />
+    <state x="317" y="25" width="1873" height="1407" key="CommitChangelistDialog2/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655278905834" />
+    <state width="2449" height="266" key="GridCell.Tab.0.bottom" timestamp="1662534382180">
+      <screen x="59" y="25" width="2501" height="1415" />
     </state>
-    <state x="728" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/57.25.1991.1255@57.25.1991.1255" timestamp="1644823050063" />
-    <state width="1939" height="303" key="GridCell.Tab.0.bottom" timestamp="1652850544981">
-      <screen x="57" y="25" width="1991" height="1255" />
+    <state width="2451" height="294" key="GridCell.Tab.0.bottom/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655458446182" />
+    <state width="2449" height="266" key="GridCell.Tab.0.bottom/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534382180" />
+    <state width="2449" height="266" key="GridCell.Tab.0.center" timestamp="1662534382180">
+      <screen x="59" y="25" width="2501" height="1415" />
     </state>
-    <state width="1939" height="303" key="GridCell.Tab.0.bottom/57.25.1991.1255@57.25.1991.1255" timestamp="1652850544981" />
-    <state width="1939" height="303" key="GridCell.Tab.0.center" timestamp="1652850544980">
-      <screen x="57" y="25" width="1991" height="1255" />
+    <state width="2451" height="294" key="GridCell.Tab.0.center/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655458446182" />
+    <state width="2449" height="266" key="GridCell.Tab.0.center/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534382180" />
+    <state width="2449" height="266" key="GridCell.Tab.0.left" timestamp="1662534382179">
+      <screen x="59" y="25" width="2501" height="1415" />
     </state>
-    <state width="1939" height="303" key="GridCell.Tab.0.center/57.25.1991.1255@57.25.1991.1255" timestamp="1652850544980" />
-    <state width="1939" height="303" key="GridCell.Tab.0.left" timestamp="1652850544980">
-      <screen x="57" y="25" width="1991" height="1255" />
+    <state width="2451" height="294" key="GridCell.Tab.0.left/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655458446182" />
+    <state width="2449" height="266" key="GridCell.Tab.0.left/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534382179" />
+    <state width="2449" height="266" key="GridCell.Tab.0.right" timestamp="1662534382180">
+      <screen x="59" y="25" width="2501" height="1415" />
     </state>
-    <state width="1939" height="303" key="GridCell.Tab.0.left/57.25.1991.1255@57.25.1991.1255" timestamp="1652850544980" />
-    <state width="1939" height="303" key="GridCell.Tab.0.right" timestamp="1652850544981">
-      <screen x="57" y="25" width="1991" height="1255" />
+    <state width="2451" height="294" key="GridCell.Tab.0.right/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655458446182" />
+    <state width="2449" height="266" key="GridCell.Tab.0.right/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534382180" />
+    <state x="679" y="364" key="Vcs.Push.Dialog.v2" timestamp="1655278915965">
+      <screen x="57" y="25" width="2503" height="1415" />
     </state>
-    <state width="1939" height="303" key="GridCell.Tab.0.right/57.25.1991.1255@57.25.1991.1255" timestamp="1652850544981" />
-    <state width="1939" height="618" key="GridCell.Tab.1.bottom" timestamp="1644913583319">
-      <screen x="57" y="25" width="1991" height="1255" />
+    <state x="679" y="364" key="Vcs.Push.Dialog.v2/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655278915965" />
+    <state x="835" y="495" key="com.intellij.ide.util.TipDialog" timestamp="1655779534056">
+      <screen x="57" y="25" width="2503" height="1415" />
     </state>
-    <state width="1939" height="618" key="GridCell.Tab.1.bottom/57.25.1991.1255@57.25.1991.1255" timestamp="1644913583319" />
-    <state width="1939" height="618" key="GridCell.Tab.1.center" timestamp="1644913583319">
-      <screen x="57" y="25" width="1991" height="1255" />
+    <state x="835" y="495" key="com.intellij.ide.util.TipDialog/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655779534056" />
+    <state x="557" y="361" key="new project wizard" timestamp="1655258730079">
+      <screen x="57" y="25" width="2503" height="1415" />
     </state>
-    <state width="1939" height="618" key="GridCell.Tab.1.center/57.25.1991.1255@57.25.1991.1255" timestamp="1644913583319" />
-    <state width="1939" height="618" key="GridCell.Tab.1.left" timestamp="1644913583319">
-      <screen x="57" y="25" width="1991" height="1255" />
-    </state>
-    <state width="1939" height="618" key="GridCell.Tab.1.left/57.25.1991.1255@57.25.1991.1255" timestamp="1644913583319" />
-    <state width="1939" height="618" key="GridCell.Tab.1.right" timestamp="1644913583319">
-      <screen x="57" y="25" width="1991" height="1255" />
-    </state>
-    <state width="1939" height="618" key="GridCell.Tab.1.right/57.25.1991.1255@57.25.1991.1255" timestamp="1644913583319" />
-    <state x="828" y="423" key="chooseDestDirectoryDialog" timestamp="1644830108934">
-      <screen x="57" y="25" width="1991" height="1255" />
-    </state>
-    <state x="828" y="423" key="chooseDestDirectoryDialog/57.25.1991.1255@57.25.1991.1255" timestamp="1644830108934" />
-    <state x="676" y="442" key="com.intellij.ide.util.TipDialog" timestamp="1651198020793">
-      <screen x="57" y="25" width="1991" height="1255" />
-    </state>
-    <state x="676" y="442" key="com.intellij.ide.util.TipDialog/57.25.1991.1255@57.25.1991.1255" timestamp="1651198020793" />
-    <state x="267" y="281" key="new project wizard" timestamp="1644914836181">
-      <screen x="57" y="25" width="1991" height="1255" />
-    </state>
-    <state x="267" y="281" key="new project wizard/57.25.1991.1255@57.25.1991.1255" timestamp="1644914836181" />
-    <state x="633" y="248" width="838" height="1032" key="search.everywhere.popup" timestamp="1644819595871">
-      <screen x="57" y="25" width="1991" height="1255" />
-    </state>
-    <state x="633" y="248" width="838" height="1032" key="search.everywhere.popup/57.25.1991.1255@57.25.1991.1255" timestamp="1644819595871" />
+    <state x="557" y="361" key="new project wizard/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655258730079" />
   </component>
 </project>

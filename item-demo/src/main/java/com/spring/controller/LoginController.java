@@ -26,9 +26,13 @@ public class LoginController {
     @ResponseBody
     public String login(@RequestBody UserDto userDto){
         QueryWrapper<Users> queryWrapper = new QueryWrapper<>();
-        queryWrapper.select("id","phone").like("phone",userDto.getPhone());
+        queryWrapper.select("id","phone").eq("phone",userDto.getPhone());
         Users user = usersService.getOne(queryWrapper);
-        System.out.println("user"+user);
+        if (null == user){
+            System.out.println("没有");
+        }else {
+            System.out.println("user"+user);
+        }
         return "成功啦啊哈哈哈哈嗯嗯嗯哒哒哒";
     }
 }

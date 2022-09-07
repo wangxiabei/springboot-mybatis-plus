@@ -1,4 +1,4 @@
 server:
   port: 7073
   servlet:
-    context-path: /
+    context-path: /my/test

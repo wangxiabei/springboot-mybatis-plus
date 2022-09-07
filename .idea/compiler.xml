@@ -7,8 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="item-mbg" />
+        <module name="item-mall" />
         <module name="item-demo" />
+        <module name="item-mbg" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="item-demo" options="-parameters" />
+      <module name="item-mall" options="-parameters" />
       <module name="item-mbg" options="-parameters" />
       <module name="item-security" options="-parameters" />
     </option>

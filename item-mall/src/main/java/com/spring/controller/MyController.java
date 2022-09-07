@@ -1,14 +1,17 @@
 package com.spring.controller;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
-@RequestMapping("/my")
+@RestController
+@RequestMapping(("/my"))
 public class MyController {
+
     @GetMapping("/test")
-    public void test(){
-        System.out.println("你好吗");
+    @ResponseBody
+    public String test(){
+        return "你好";
     }
 }
