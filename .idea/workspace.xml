@@ -201,30 +201,31 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="317" y="25" width="1873" height="1407" key="CommitChangelistDialog2" timestamp="1655278905834">
-      <screen x="57" y="25" width="2503" height="1415" />
+    <state x="319" y="25" width="1873" height="1407" key="CommitChangelistDialog2" timestamp="1662534399989">
+      <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state x="317" y="25" width="1873" height="1407" key="CommitChangelistDialog2/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655278905834" />
-    <state width="2449" height="266" key="GridCell.Tab.0.bottom" timestamp="1662534382180">
+    <state x="319" y="25" key="CommitChangelistDialog2/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534399989" />
+    <state width="2449" height="266" key="GridCell.Tab.0.bottom" timestamp="1662534404632">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state width="2451" height="294" key="GridCell.Tab.0.bottom/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655458446182" />
-    <state width="2449" height="266" key="GridCell.Tab.0.bottom/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534382180" />
-    <state width="2449" height="266" key="GridCell.Tab.0.center" timestamp="1662534382180">
+    <state width="2449" height="266" key="GridCell.Tab.0.bottom/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534404632" />
+    <state width="2449" height="266" key="GridCell.Tab.0.center" timestamp="1662534404631">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state width="2451" height="294" key="GridCell.Tab.0.center/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655458446182" />
-    <state width="2449" height="266" key="GridCell.Tab.0.center/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534382180" />
-    <state width="2449" height="266" key="GridCell.Tab.0.left" timestamp="1662534382179">
+    <state width="2449" height="266" key="GridCell.Tab.0.center/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534404631" />
+    <state width="2449" height="266" key="GridCell.Tab.0.left" timestamp="1662534404631">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state width="2451" height="294" key="GridCell.Tab.0.left/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655458446182" />
-    <state width="2449" height="266" key="GridCell.Tab.0.left/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534382179" />
-    <state width="2449" height="266" key="GridCell.Tab.0.right" timestamp="1662534382180">
+    <state width="2449" height="266" key="GridCell.Tab.0.left/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534404631" />
+    <state width="2449" height="266" key="GridCell.Tab.0.right" timestamp="1662534404632">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state width="2451" height="294" key="GridCell.Tab.0.right/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655458446182" />
-    <state width="2449" height="266" key="GridCell.Tab.0.right/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534382180" />
+    <state width="2449" height="266" key="GridCell.Tab.0.right/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534404632" />
     <state x="679" y="364" key="Vcs.Push.Dialog.v2" timestamp="1655278915965">
       <screen x="57" y="25" width="2503" height="1415" />
     </state>
