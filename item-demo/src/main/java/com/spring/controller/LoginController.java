@@ -25,9 +25,7 @@ public class LoginController {
     @PostMapping("/login")
     @ResponseBody
     public String login(@RequestBody UserDto userDto){
-        QueryWrapper<Users> queryWrapper = new QueryWrapper<>();
-        queryWrapper.select("id","phone").eq("phone",userDto.getPhone());
-        Users user = usersService.getOne(queryWrapper);
+        Users user = usersService.getOne(new QueryWrapper<Users>().select("id","phone").eq("phone",userDto.getPhone()));
         if (null == user){
             System.out.println("没有");
         }else {

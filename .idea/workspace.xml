@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4919e984-58fe-4510-b7f7-1e589efd98ef" name="Default Changelist" comment="新增加mall模块">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4919e984-58fe-4510-b7f7-1e589efd98ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item-demo/src/main/java/com/spring/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/src/main/java/com/spring/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-demo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-demo/target/classes/com/spring/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/target/classes/com/spring/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/controller/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-mall/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/item-mall/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,22 +183,43 @@
       <option name="project" value="LOCAL" />
       <updated>1655278905934</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="新增加mall模块">
+      <created>1662534400196</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662534400196</updated>
+    </task>
+    <task id="LOCAL-00007" summary="新增加mall模块">
+      <created>1662534425285</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662534425285</updated>
+    </task>
+    <task id="LOCAL-00008" summary="新增加mall模块">
+      <created>1662534435572</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662534435572</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xiugai" />
     <MESSAGE value="写了一些备注吧" />
-    <MESSAGE value="新增加mall模块" />
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="新增加mall模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增加mall模块" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="319" y="25" width="1873" height="1407" key="CommitChangelistDialog2" timestamp="1662534425195">
+    <state x="319" y="25" width="1873" height="1407" key="CommitChangelistDialog2" timestamp="1662534435482">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state x="317" y="25" width="1873" height="1407" key="CommitChangelistDialog2/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655278905834" />
-    <state x="319" y="25" key="CommitChangelistDialog2/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534425195" />
+    <state x="319" y="25" key="CommitChangelistDialog2/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534435482" />
     <state width="2449" height="266" key="GridCell.Tab.0.bottom" timestamp="1662534404632">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
@@ -226,10 +240,11 @@
     </state>
     <state width="2451" height="294" key="GridCell.Tab.0.right/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655458446182" />
     <state width="2449" height="266" key="GridCell.Tab.0.right/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534404632" />
-    <state x="679" y="364" key="Vcs.Push.Dialog.v2" timestamp="1655278915965">
-      <screen x="57" y="25" width="2503" height="1415" />
+    <state x="681" y="364" key="Vcs.Push.Dialog.v2" timestamp="1662534482712">
+      <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state x="679" y="364" key="Vcs.Push.Dialog.v2/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655278915965" />
+    <state x="681" y="364" key="Vcs.Push.Dialog.v2/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534482712" />
     <state x="835" y="495" key="com.intellij.ide.util.TipDialog" timestamp="1655779534056">
       <screen x="57" y="25" width="2503" height="1415" />
     </state>
