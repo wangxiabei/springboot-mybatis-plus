@@ -7,18 +7,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="item-mall" />
+        <module name="item-getway" />
         <module name="item-demo" />
+        <module name="item-mall" />
+        <module name="item-auth" />
+        <module name="item-eureka" />
         <module name="item-mbg" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="center" target="1.8" />
+      <module name="item-center" target="1.8" />
       <module name="item-security" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="center" options="-parameters" />
+      <module name="item-auth" options="-parameters" />
+      <module name="item-center" options="-parameters" />
       <module name="item-demo" options="-parameters" />
+      <module name="item-eureka" options="-parameters" />
+      <module name="item-getway" options="-parameters" />
       <module name="item-mall" options="-parameters" />
       <module name="item-mbg" options="-parameters" />
       <module name="item-security" options="-parameters" />

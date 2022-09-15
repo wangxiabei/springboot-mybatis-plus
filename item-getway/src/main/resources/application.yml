@@ -1,0 +1,15 @@
+server:
+  port: 7075
+spring:
+  application:
+    name: item-getway
+  cloud:
+    gateway:
+      routes:
+        - id: auth
+          uri: lb://item-auth
+          predicates:
+            - Path=/api/*
+          filters:
+            -StripPrefix=1
+
