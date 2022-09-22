@@ -5,6 +5,8 @@ import com.spring.mapper.AdminMapper;
 import com.spring.service.AdminService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements AdminService {
 
@@ -12,5 +14,10 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
     public Admin getUserByName(String name) {
         System.out.println("wqeqweqwewq");
         return this.baseMapper.getAdminByName(name);
+    }
+
+    @Override
+    public List<String> getAuthList(Long adminId) {
+        return this.baseMapper.getAdminAuthList(adminId);
     }
 }

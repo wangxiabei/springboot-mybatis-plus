@@ -21,8 +21,6 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class Users extends Model {
 
-    private static final long serialVersionUID = 1L;
-
     private Integer id;
 
     /**

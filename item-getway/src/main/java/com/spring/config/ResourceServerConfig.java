@@ -25,7 +25,7 @@ public class ResourceServerConfig {
     public SecurityWebFilterChain securityWebFilterChain(ServerHttpSecurity http){
         http.authorizeExchange().pathMatchers("/uaa*/*").permitAll()
                 .pathMatchers("/admin*/api/**").access(new AuthorizationManager(tokenStore,"API_ADMIN"))
-                .pathMatchers("/bull/**").permitAll()
+                .pathMatchers("/mall/**").permitAll()
                 .anyExchange().permitAll()
                 .and().exceptionHandling()
                 .accessDeniedHandler(restfulAccessDeniedHandler) //处理未授权

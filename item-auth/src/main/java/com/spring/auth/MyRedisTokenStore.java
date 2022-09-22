@@ -202,7 +202,6 @@ public class MyRedisTokenStore implements TokenStore {
             conn.close();
         }
         OAuth2AccessToken accessToken = deserializeAccessToken(bytes);
-//		// 不校验环境变更 冷吉祥 0331 重新登录，挤掉之前账号
 ////		if(accessToken != null && checkLoginChanged(authentication)){
 //		if(accessToken != null){
 //			OAuth2RefreshToken refreshToken = accessToken.getRefreshToken();

@@ -4,4 +4,13 @@
     <select id="getAdminByName" resultType="com.spring.bean.Admin">
         select * from admins where phone=#{loginName}
     </select>
+    <select id="getAdminAuthList" resultType="java.lang.String">
+        select
+        mau.action
+        from manage_authorities mau
+        LEFT join manage_role_authorities mra on mra.authority_id = mau.id
+        LEFT join manage_admin_roles mar on mar.role_id = mra.role_id
+        where mar.admin_id = #{adminId} ORDER BY mau.id desc
+        LIMIT 3
+    </select>
 </mapper>

@@ -3,11 +3,14 @@ package com.spring.bean;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
 
 @Data
 public class LoginUser implements UserDetails {
+    private Long id;
     private String nickname;
     private String name;
     private String password;

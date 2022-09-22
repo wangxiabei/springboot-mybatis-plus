@@ -2,60 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4919e984-58fe-4510-b7f7-1e589efd98ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/item-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/AuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/auth/ExceptionCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/auth/MyDefaultAuthenticationKeyGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/auth/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/auth/MyRedisTokenStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/bean/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/bean/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/ClientDetailThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/MyClientDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/MyDefaultTokenServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/MyMd5Password.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/MyOAuth2AccessToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/MyRedisTokenEnhancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/MyUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/TokenConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/controller/Oauth2TokenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/mapper/AdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/units/IPUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/units/Md5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/resources/Mapper/AdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-auth/src/main/resources/views/base-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-eureka/item-eureka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-eureka/src/main/java/com/spring/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-eureka/src/main/java/com/spring/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-getway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/GetApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/bean/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/commom/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/config/AuthorizationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/config/ResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/exception/RestfulAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/exception/RestfulAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/filter/TokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-getway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/filter/TokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-demo/src/main/java/com/spring/feign/FeignClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/config/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/bean/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/config/RedisMessageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/config/RedisMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/filter/FeignAuthHeaderConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/filter/FeignInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/utils/LoginUserUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-demo/target/classes/com/spring/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/target/classes/com/spring/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/auth/MyRedisTokenStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/auth/MyRedisTokenStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/bean/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/bean/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/bean/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/bean/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/mapper/AdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-auth/src/main/resources/Mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-auth/src/main/resources/Mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-auth/src/main/resources/views/base-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/item-auth/src/main/resources/views/base-login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-demo/src/main/java/com/spring/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/src/main/java/com/spring/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-demo/src/main/java/com/spring/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/src/main/java/com/spring/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-demo/src/main/java/com/spring/mapper/UsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/src/main/java/com/spring/mapper/UsersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-demo/src/main/java/com/spring/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/src/main/java/com/spring/model/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-demo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-demo/target/classes/com/spring/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/target/classes/com/spring/DemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-demo/target/classes/com/spring/mapper/UsersMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/target/classes/com/spring/mapper/UsersMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-demo/target/classes/com/spring/model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-demo/target/classes/com/spring/model/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-eureka/item-eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/GetApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/GetApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/bean/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/bean/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/filter/TokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/filter/TokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-getway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/item-getway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-mall/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-mall/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-mall/src/main/java/com/spring/filter/TokenFilter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/item-mall/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/item-mall/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-mbg/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-mbg/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-mbg/src/main/java/com/spring/model/auto/MallMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-mbg/src/main/java/com/spring/model/auto/MallMenus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-mbg/target/classes/com/spring/model/auto/MallMenus.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-mbg/target/classes/com/spring/model/auto/MallMenus.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +52,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -121,7 +108,7 @@
       <recent name="$PROJECT_DIR$/item-security/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EurekaApplication">
+  <component name="RunManager" selected="Application.DemoApplication">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.Application" />
       <module name="item-mall" />
@@ -148,22 +135,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CenterApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.CenterApplication" />
-      <module name="center" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CenterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.CenterApplication" />
-      <module name="item-center" />
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.DemoApplication" />
+      <module name="item-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.spring.*" />
@@ -177,6 +151,19 @@
     <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.EurekaApplication" />
       <module name="item-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.GetApplication" />
+      <module name="item-getway" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.spring.*" />
@@ -202,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AuthApplication" />
-        <item itemvalue="Application.EurekaApplication" />
-        <item itemvalue="Application.CenterApplication" />
-        <item itemvalue="Application.CenterApplication (1)" />
+        <item itemvalue="Application.DemoApplication" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.EurekaApplication" />
+        <item itemvalue="Application.AuthApplication" />
+        <item itemvalue="Application.GetApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662534595434</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修改代码">
+      <created>1663221981202</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663221981202</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -313,10 +307,11 @@
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state x="809" y="314" key="#Project_Structure/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663038957208" />
-    <state x="1449" y="351" key="#com.intellij.ide.util.MemberChooser" timestamp="1663213045107">
+    <state x="1449" y="351" key="#com.intellij.ide.util.MemberChooser" timestamp="1663639861922">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
-    <state x="1449" y="351" key="#com.intellij.ide.util.MemberChooser/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663213045107" />
+    <state x="1164" y="314" key="#com.intellij.ide.util.MemberChooser/59.25.1989.1255@59.25.1989.1255" timestamp="1663298374751" />
+    <state x="1449" y="351" key="#com.intellij.ide.util.MemberChooser/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663639861922" />
     <state x="824" y="651" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1663220491283">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
@@ -329,45 +324,70 @@
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state x="985" y="428" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662708153735" />
-    <state x="319" y="25" width="1873" height="1407" key="CommitChangelistDialog2" timestamp="1662534595345">
+    <state x="319" y="25" width="1873" height="1407" key="CommitChangelistDialog2" timestamp="1663221980985">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state x="317" y="25" width="1873" height="1407" key="CommitChangelistDialog2/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655278905834" />
-    <state x="319" y="25" key="CommitChangelistDialog2/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534595345" />
-    <state width="2449" height="133" key="GridCell.Tab.0.bottom" timestamp="1663221954574">
+    <state x="319" y="25" key="CommitChangelistDialog2/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663221980985" />
+    <state width="2449" height="639" key="GridCell.Tab.0.bottom" timestamp="1663666183792">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state width="2451" height="294" key="GridCell.Tab.0.bottom/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655458446182" />
-    <state width="2449" height="133" key="GridCell.Tab.0.bottom/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663221954574" />
-    <state width="2449" height="133" key="GridCell.Tab.0.center" timestamp="1663221954573">
+    <state width="1937" height="352" key="GridCell.Tab.0.bottom/59.25.1989.1255@59.25.1989.1255" timestamp="1663314083023" />
+    <state width="2449" height="639" key="GridCell.Tab.0.bottom/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663666183792" />
+    <state width="2449" height="639" key="GridCell.Tab.0.center" timestamp="1663666183792">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state width="2451" height="294" key="GridCell.Tab.0.center/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655458446182" />
-    <state width="2449" height="133" key="GridCell.Tab.0.center/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663221954573" />
-    <state width="2449" height="133" key="GridCell.Tab.0.left" timestamp="1663221954573">
+    <state width="1937" height="352" key="GridCell.Tab.0.center/59.25.1989.1255@59.25.1989.1255" timestamp="1663314083023" />
+    <state width="2449" height="639" key="GridCell.Tab.0.center/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663666183792" />
+    <state width="2449" height="639" key="GridCell.Tab.0.left" timestamp="1663666183791">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state width="2451" height="294" key="GridCell.Tab.0.left/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655458446182" />
-    <state width="2449" height="133" key="GridCell.Tab.0.left/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663221954573" />
-    <state width="2449" height="133" key="GridCell.Tab.0.right" timestamp="1663221954574">
+    <state width="1937" height="352" key="GridCell.Tab.0.left/59.25.1989.1255@59.25.1989.1255" timestamp="1663314083022" />
+    <state width="2449" height="639" key="GridCell.Tab.0.left/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663666183791" />
+    <state width="2449" height="639" key="GridCell.Tab.0.right" timestamp="1663666183792">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state width="2451" height="294" key="GridCell.Tab.0.right/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655458446182" />
-    <state width="2449" height="133" key="GridCell.Tab.0.right/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663221954574" />
-    <state x="681" y="364" key="Vcs.Push.Dialog.v2" timestamp="1662534606100">
+    <state width="1937" height="352" key="GridCell.Tab.0.right/59.25.1989.1255@59.25.1989.1255" timestamp="1663314083023" />
+    <state width="2449" height="639" key="GridCell.Tab.0.right/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663666183792" />
+    <state width="2449" height="624" key="GridCell.Tab.1.bottom" timestamp="1663666183776">
+      <screen x="59" y="25" width="2501" height="1415" />
+    </state>
+    <state width="2449" height="624" key="GridCell.Tab.1.bottom/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663666183776" />
+    <state width="2449" height="624" key="GridCell.Tab.1.center" timestamp="1663666183775">
+      <screen x="59" y="25" width="2501" height="1415" />
+    </state>
+    <state width="2449" height="624" key="GridCell.Tab.1.center/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663666183775" />
+    <state width="2449" height="624" key="GridCell.Tab.1.left" timestamp="1663666183775">
+      <screen x="59" y="25" width="2501" height="1415" />
+    </state>
+    <state width="2449" height="624" key="GridCell.Tab.1.left/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663666183775" />
+    <state width="2449" height="624" key="GridCell.Tab.1.right" timestamp="1663666183776">
+      <screen x="59" y="25" width="2501" height="1415" />
+    </state>
+    <state width="2449" height="624" key="GridCell.Tab.1.right/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663666183776" />
+    <state x="479" y="231" key="Maven.ArtifactSearchDialog" timestamp="1663307203807">
+      <screen x="59" y="25" width="1989" height="1255" />
+    </state>
+    <state x="479" y="231" key="Maven.ArtifactSearchDialog/59.25.1989.1255@59.25.1989.1255" timestamp="1663307203807" />
+    <state x="681" y="364" key="Vcs.Push.Dialog.v2" timestamp="1663222014367">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state x="679" y="364" key="Vcs.Push.Dialog.v2/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655278915965" />
-    <state x="681" y="364" key="Vcs.Push.Dialog.v2/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662534606100" />
-    <state x="836" y="495" key="com.intellij.ide.util.TipDialog" timestamp="1663207421476">
+    <state x="681" y="364" key="Vcs.Push.Dialog.v2/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663222014367" />
+    <state x="836" y="495" key="com.intellij.ide.util.TipDialog" timestamp="1663725577125">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state x="835" y="495" key="com.intellij.ide.util.TipDialog/57.25.2503.1415/2560.25.1792.1095@57.25.2503.1415" timestamp="1655779534056" />
-    <state x="836" y="495" key="com.intellij.ide.util.TipDialog/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663207421476" />
-    <state x="929" y="445" width="761" height="574" key="find.popup" timestamp="1663212669554">
-      <screen x="59" y="25" width="2501" height="1415" />
+    <state x="836" y="495" key="com.intellij.ide.util.TipDialog/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663725577125" />
+    <state x="751" y="398" width="789" height="574" key="find.popup" timestamp="1663306226180">
+      <screen x="59" y="25" width="1989" height="1255" />
     </state>
-    <state x="929" y="445" width="761" height="574" key="find.popup/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663212669554" />
+    <state x="751" y="398" width="789" height="574" key="find.popup/59.25.1989.1255@59.25.1989.1255" timestamp="1663306226180" />
+    <state x="929" y="445" width="761" height="574" key="find.popup/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663233430443" />
     <state x="559" y="361" key="new project wizard" timestamp="1663135431919">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
@@ -377,9 +397,9 @@
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state x="1015" y="272" key="refactoring.ChangeSignatureDialog/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662607199712" />
-    <state x="890" y="342" width="838" height="1032" key="search.everywhere.popup" timestamp="1662705980502">
+    <state x="890" y="342" width="838" height="1032" key="search.everywhere.popup" timestamp="1663652785986">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
-    <state x="890" y="342" width="838" height="1032" key="search.everywhere.popup/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662705980502" />
+    <state x="890" y="342" width="838" height="1032" key="search.everywhere.popup/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663652785986" />
   </component>
 </project>

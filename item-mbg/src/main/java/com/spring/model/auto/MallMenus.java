@@ -21,8 +21,6 @@ import java.util.Date;
 @Accessors(chain = true)
 public class MallMenus extends Model {
 
-    private static final long serialVersionUID = 1L;
-
     private Long id;
 
     /**
