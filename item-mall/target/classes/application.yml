@@ -1,0 +1,19 @@
+server:
+  port: 7073
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: item-mall
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  server:
+    enable-self-preservation: false      # 关闭自我保护模式（默认为打开）
+    eviction-interval-timer-in-ms: 5000  # 续期时间，即扫描失效服务的间隔时间（缺省为60*1000ms）
+  client:
+    fetch-registry: true #是否从EurekaServer获取注册信息，单节点可不需要
+    register-with-eureka: true #是否将自己注册到EurekaServer
+    service-url:
+      defaultZone: http://center:center12345!@localhost:7071/eureka

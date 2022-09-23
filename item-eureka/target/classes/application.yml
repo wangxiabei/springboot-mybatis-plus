@@ -1,0 +1,24 @@
+server:
+  port: 7071
+spring:
+  application:
+    name: item-center
+  security:
+    user:
+      name: center
+      password: center12345!
+
+
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  server:
+    enable-self-preservation: false #关闭自我保护模式(默认为打开)
+    evication-interval-timer-in-ms: 5000 #续期时间,既扫描失效服务的间隔时间(缺省委60*1000ms)
+  client:
+    fetch-registry: false #是否从EurekaServer获取注册信息，单节点可不需要
+    register-with-eureka: false #是否将自己注册到EurekaServer
+    service-url:
+      defaultZone: http://center:center12345!@localhost:7071/eureka
