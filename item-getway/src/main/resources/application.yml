@@ -17,15 +17,21 @@ spring:
     name: item-getway
   cloud:
     gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
       routes:
         - id: auth
           uri: lb://item-auth
           predicates:
-            - Path=/*
+            - Path=/**
           filters:
-            -StripPrefix=1
+            - StripPrefix=1
         - id: mall
           uri: lb://item-mall
           predicates:
-            - Path=/*
+            - Path=/mall/**
+          filters:
+            - StripPrefix=1
 

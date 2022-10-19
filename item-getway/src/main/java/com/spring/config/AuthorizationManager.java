@@ -41,7 +41,7 @@ public class AuthorizationManager implements ReactiveAuthorizationManager<Author
         if (StringUtils.isBlank(token)){
             throw new RuntimeException("认证异常请重新登录");
         }
-        token = token.replace("bearer","").trim();
+        token = token.replace("Bearer ","").trim();
         OAuth2Authentication oAuth2Authentication = tokenStore.readAuthentication(token);
         if (oAuth2Authentication == null){
             throw  new RuntimeException("认证异常请重新登录");

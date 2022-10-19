@@ -36,11 +36,14 @@ public class TokenFilter implements GlobalFilter, Ordered {
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         List<String> authHeader = exchange.getRequest().getHeaders().get("Authorization");
         log.info("前置: " +authHeader);
+        log.info("tokenValue: " +authHeader.get(0));
         String token = null;
         if (authHeader != null) {
             String tokenValue = authHeader.get(0);
-            tokenValue = tokenValue.replace("bearer", "").trim();
+            tokenValue = tokenValue.replace("Bearer ", "").trim();
+            log.info("tokenValue: " +tokenValue);
             token = buildToken(tokenValue);
+            log.info("token: " +token);
         }
         if (token != null) {
             // 定义新的消息头
@@ -77,6 +80,7 @@ public class TokenFilter implements GlobalFilter, Ordered {
     private String buildToken(String tokenValue) {
 
         OAuth2Authentication auth2Authentication = tokenStore.readAuthentication(tokenValue);
+        log.info("buildToken:"+auth2Authentication);
         if (auth2Authentication == null) {
             return null;
         }

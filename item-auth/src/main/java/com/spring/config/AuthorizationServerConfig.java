@@ -113,7 +113,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
         tokenEnhancerChain.setTokenEnhancers(enhancer);
         services.setTokenEnhancer(tokenEnhancerChain);
 
-        services.setAccessTokenValiditySeconds(2 * 60 * 60);
+        services.setAccessTokenValiditySeconds(5);//2 * 60 * 60
         services.setRefreshTokenValiditySeconds(1 * 24 * 60 * 60);
         return services;
     }
