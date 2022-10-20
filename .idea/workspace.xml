@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4919e984-58fe-4510-b7f7-1e589efd98ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/item-mall/src/test/java/test.java" afterDir="false" />
+    <list default="true" id="4919e984-58fe-4510-b7f7-1e589efd98ef" name="Default Changelist" comment="修改代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/AuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/AuthApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-auth/src/main/java/com/spring/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-auth/target/classes/com/spring/AuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-auth/target/classes/com/spring/AuthApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-auth/target/classes/com/spring/config/AuthorizationServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-auth/target/classes/com/spring/config/AuthorizationServerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/config/AuthorizationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/config/AuthorizationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/filter/TokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-getway/src/main/java/com/spring/filter/TokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-getway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/item-getway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-getway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/item-getway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-getway/target/classes/com/spring/filter/TokenFilter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-getway/target/classes/com/spring/filter/TokenFilter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-getway/target/classes/com/spring/filter/TokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-getway/target/classes/com/spring/filter/TokenFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-mall/target/classes/META-INF/item-mall.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +68,7 @@
       <recent name="$PROJECT_DIR$/item-security/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.AuthApplication">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.Application" />
       <module name="item-mall" />
@@ -155,8 +143,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
         <item itemvalue="Application.AuthApplication" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.GetApplication" />
         <item itemvalue="Application.EurekaApplication" />
         <item itemvalue="Application.test" />
@@ -263,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663836872240</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="修改代码">
+      <created>1666165644369</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666165644369</updated>
+    </task>
+    <task id="LOCAL-00013" summary="修改代码">
+      <created>1666165956736</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666165956736</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -297,30 +299,30 @@
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state x="985" y="428" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1662708153735" />
-    <state x="884" y="174" width="901" height="1155" key="CommitChangelistDialog2" timestamp="1666165617545">
+    <state x="884" y="174" width="901" height="1155" key="CommitChangelistDialog2" timestamp="1666231089692">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
-    <state x="884" y="174" width="901" height="1155" key="CommitChangelistDialog2/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1666165617545" />
-    <state width="2449" height="459" key="GridCell.Tab.0.bottom" timestamp="1666165560662">
+    <state x="884" y="174" width="901" height="1155" key="CommitChangelistDialog2/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1666231089692" />
+    <state width="2449" height="459" key="GridCell.Tab.0.bottom" timestamp="1666230701767">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state width="1937" height="352" key="GridCell.Tab.0.bottom/59.25.1989.1255@59.25.1989.1255" timestamp="1663314083023" />
-    <state width="2449" height="459" key="GridCell.Tab.0.bottom/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1666165560662" />
-    <state width="2449" height="459" key="GridCell.Tab.0.center" timestamp="1666165560661">
+    <state width="2449" height="459" key="GridCell.Tab.0.bottom/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1666230701767" />
+    <state width="2449" height="459" key="GridCell.Tab.0.center" timestamp="1666230701766">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state width="1937" height="352" key="GridCell.Tab.0.center/59.25.1989.1255@59.25.1989.1255" timestamp="1663314083023" />
-    <state width="2449" height="459" key="GridCell.Tab.0.center/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1666165560661" />
-    <state width="2449" height="459" key="GridCell.Tab.0.left" timestamp="1666165560660">
+    <state width="2449" height="459" key="GridCell.Tab.0.center/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1666230701766" />
+    <state width="2449" height="459" key="GridCell.Tab.0.left" timestamp="1666230701766">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state width="1937" height="352" key="GridCell.Tab.0.left/59.25.1989.1255@59.25.1989.1255" timestamp="1663314083022" />
-    <state width="2449" height="459" key="GridCell.Tab.0.left/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1666165560660" />
-    <state width="2449" height="459" key="GridCell.Tab.0.right" timestamp="1666165560661">
+    <state width="2449" height="459" key="GridCell.Tab.0.left/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1666230701766" />
+    <state width="2449" height="459" key="GridCell.Tab.0.right" timestamp="1666230701767">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
     <state width="1937" height="352" key="GridCell.Tab.0.right/59.25.1989.1255@59.25.1989.1255" timestamp="1663314083023" />
-    <state width="2449" height="459" key="GridCell.Tab.0.right/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1666165560661" />
+    <state width="2449" height="459" key="GridCell.Tab.0.right/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1666230701767" />
     <state width="2449" height="624" key="GridCell.Tab.1.bottom" timestamp="1663666183776">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
@@ -345,10 +347,10 @@
       <screen x="59" y="25" width="1989" height="1255" />
     </state>
     <state x="479" y="231" key="Maven.ArtifactSearchDialog/59.25.1989.1255@59.25.1989.1255" timestamp="1663307203807" />
-    <state x="681" y="364" key="Vcs.Push.Dialog.v2" timestamp="1663836883286">
+    <state x="681" y="364" key="Vcs.Push.Dialog.v2" timestamp="1666165964248">
       <screen x="59" y="25" width="2501" height="1415" />
     </state>
-    <state x="681" y="364" key="Vcs.Push.Dialog.v2/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1663836883286" />
+    <state x="681" y="364" key="Vcs.Push.Dialog.v2/59.25.2501.1415/2560.25.1792.1095@59.25.2501.1415" timestamp="1666165964248" />
     <state x="677" y="442" key="com.intellij.ide.util.TipDialog" timestamp="1664606278497">
       <screen x="59" y="25" width="1989" height="1255" />
     </state>
